@@ -9,5 +9,4 @@ My portfolio site was built using HTML, CSS and JavaScript. You can examine it a
 
 * LinkedIn: [@mohamed-hamid](https://www.linkedin.com/in/mohamed-hamid-3bb3aa243)
 * GitHub: [@MohamedHamid4](hhttps://github.com/MohamedHamid4)
-"# MohamedHamid.com" 
-"# MohamedHamid.com" 
+
