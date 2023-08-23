@@ -1,4 +1,4 @@
-# arasgungore.github.io
+# Mohamed Hamid
 
 My portfolio site was built using HTML, CSS and JavaScript. You can examine it and read the code.
 
