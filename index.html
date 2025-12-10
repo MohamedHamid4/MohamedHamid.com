@@ -354,7 +354,6 @@
   ======= End Experience Section =======
  -->
 
-
 <!-- ======= Start Projects Section ======= -->
 <section id="projects" class="services">
   <div class="container">
@@ -362,96 +361,100 @@
       <h2>Projects</h2>
     </div>
 
-    <div class="row">
+    <style>
+      .project-box {
+        width: 300px;
+        background: #0a1c2c;
+        border-radius: 10px;
+        padding: 10px;
+        text-align: center;
+        color: #fff;
+      }
 
-      <div class="col-lg-12" data-aos="fade-up"
-        style="display:flex;flex-wrap:wrap;justify-content:center;gap:20px;">
+      .project-img {
+        width: 260px;
+        height: 200px;
+        object-fit: cover;
+        border-radius: 6px;
+        margin-bottom: 10px;
+      }
 
-        <!-- Box 1 -->
-        <div class="mt-4 mt-md-0 icon-box" data-aos="fade-up" data-aos-delay="100"
-          style="padding:0px 0px;padding-bottom:5px;text-align:center;width:330px;">
-          <a href="https://github.com/MohamedHamid4/Number-Sequence-Game" target="_blank" rel="noreferrer">
-            <img src="assets/img/projects/game-sequance.png" class="img-fluid"
-              style="width:300px;height:300px;object-fit:contain;padding:5px;">
-          </a>
-          <a href="https://github.com/MohamedHamid4/Number-Sequence-Game" target="_blank" rel="noreferrer">
-            <h5 style="padding:5px;color:#12d640;"><strong>Number Sequence Game</strong></h5>
-          </a>
-          <p style="padding:0px 2px;color:#fff;">
-            An integrated game that contains an algorithm that places numbers randomly, there is an empty square
-            to put the answer according to logic. Give it a try.
-          </p>
-        </div>
+      .project-title {
+        color: #12d640;
+        margin: 5px 0;
+      }
 
-        <!-- Box 2 -->
-        <div class="mt-4 mt-md-0 icon-box" data-aos="fade-up" data-aos-delay="100"
-          style="padding:0px 0px;padding-bottom:5px;text-align:center;width:330px;">
-          <a href="https://github.com/MohamedHamid4/Puzzles-City-Game" target="_blank" rel="noreferrer">
-            <img src="assets/img/projects/Puzzel-city.png" class="img-fluid"
-              style="width:300px;height:300px;object-fit:contain;padding:5px;">
-          </a>
-          <a href="https://github.com/MohamedHamid4/Puzzles-City-Game" target="_blank" rel="noreferrer">
-            <h5 style="padding:5px;color:#12d640;"><strong>Puzzles City Game</strong></h5>
-          </a>
-          <p style="padding:0px 2px;color:#fff;">
-            The questions inside the game come from a stored Json file, and the questions come randomly according
-            to the algorithm specified for it. Try it now.
-          </p>
-        </div>
+      .project-desc {
+        min-height: 90px;
+        padding: 0 5px;
+      }
 
-        <!-- Box 3 -->
-        <div class="mt-4 mt-md-0 icon-box" data-aos="fade-up" data-aos-delay="100"
-          style="padding:0px 0px;padding-bottom:5px;text-align:center;width:330px;">
-          <a href="https://github.com/MohamedHamid4/Manger-Residential-Buildings" target="_blank" rel="noreferrer">
-            <img src="assets/img/projects/manger.png" class="img-fluid"
-              style="width:300px;height:300px;object-fit:contain;padding:5px;">
-          </a>
-          <a href="https://github.com/MohamedHamid4/Manger-Residential-Buildings" target="_blank" rel="noreferrer">
-            <h5 style="padding:5px;color:#12d640;"><strong>Manger-Residential-Buildings</strong></h5>
-          </a>
-          <p style="padding:0px 2px;color:#fff;">
-            An integrated application for managing residential towers or rented homes, the data comes & is stored
-            from within the API. For more details, try it now.
-          </p>
-        </div>
+      .projects-grid {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 25px;
+      }
+    </style>
 
-        <!-- Box 4 -->
-        <div class="mt-4 mt-md-0 icon-box" data-aos="fade-up" data-aos-delay="100"
-          style="padding:0px 0px;padding-bottom:5px;text-align:center;width:330px;">
-          <a href="https://github.com/MohamedHamid4/Quiz-App" target="_blank" rel="noreferrer">
-            <img src="assets/img/projects/quiz-app.jpeg" class="img-fluid"
-              style="width:300px;height:300px;object-fit:contain;padding:5px;">
-          </a>
-          <a href="https://github.com/MohamedHamid4/Quiz-App" target="_blank" rel="noreferrer">
-            <h5 style="padding:5px;color:#12d640;"><strong>Quiz App</strong></h5>
-          </a>
-          <p style="padding:0px 2px;color:#fff;">
-            This Flutter application's basic idea is to ask a question, choose the correct answer, & upon completion
-            of the questions in each stage, the number of correct & incorrect questions is calculated.
-          </p>
-        </div>
+    <div class="projects-grid">
 
-        <!-- Box 5 -->
-        <div class="mt-4 mt-md-0 icon-box" data-aos="fade-up" data-aos-delay="100"
-          style="padding:0px 0px;padding-bottom:5px;text-align:center;width:330px;">
-          <a href="https://github.com/MohamedHamid4/Quran-app" target="_blank" rel="noreferrer">
-            <img src="assets/img/projects/UI.jpeg" class="img-fluid"
-              style="width:300px;height:300px;object-fit:contain;padding:5px;">
-          </a>
-          <a href="https://github.com/MohamedHamid4/Quran-app" target="_blank" rel="noreferrer">
-            <h5 style="padding:5px;color:#12d640;"><strong>Quran App</strong></h5>
-          </a>
-          <p style="padding:0px 2px;color:#fff;">
-            This Flutter application's basic idea is to ask a question, choose the correct answer, & upon completion
-            of the questions in each stage, the number of correct & incorrect questions is calculated.
-          </p>
-        </div>
-
+      <div class="project-box">
+        <a href="https://github.com/MohamedHamid4/Number-Sequence-Game" target="_blank">
+          <img src="assets/img/projects/game-sequance.png" class="project-img">
+        </a>
+        <h5 class="project-title">Number Sequence Game</h5>
+        <p class="project-desc">
+          An integrated game that contains an algorithm that places numbers randomly.
+        </p>
       </div>
+
+      <div class="project-box">
+        <a href="https://github.com/MohamedHamid4/Puzzles-City-Game" target="_blank">
+          <img src="assets/img/projects/Puzzel-city.png" class="project-img">
+        </a>
+        <h5 class="project-title">Puzzles City Game</h5>
+        <p class="project-desc">
+          The questions inside the game come from a stored JSON file.
+        </p>
+      </div>
+
+      <div class="project-box">
+        <a href="https://github.com/MohamedHamid4/Manger-Residential-Buildings" target="_blank">
+          <img src="assets/img/projects/manger.png" class="project-img">
+        </a>
+        <h5 class="project-title">Manger Residential Buildings</h5>
+        <p class="project-desc">
+          An integrated app for managing residential towers or rented homes.
+        </p>
+      </div>
+
+      <div class="project-box">
+        <a href="https://github.com/MohamedHamid4/Quiz-App" target="_blank">
+          <img src="assets/img/projects/quiz-app.jpeg" class="project-img">
+        </a>
+        <h5 class="project-title">Quiz App</h5>
+        <p class="project-desc">
+          This app asks a question and calculates correct and incorrect answers.
+        </p>
+      </div>
+
+      <div class="project-box">
+        <a href="https://github.com/MohamedHamid4/Quran-app" target="_blank">
+          <img src="assets/img/projects/UI.jpeg" class="project-img">
+        </a>
+        <h5 class="project-title">Quran App</h5>
+        <p class="project-desc">
+          This app works on question and answer logic with scoring calculation.
+        </p>
+      </div>
+
     </div>
+
   </div>
 </section>
 <!-- ======= End Projects Section ======= -->
+
 
 
 
